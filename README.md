@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="frefume_banner.png" alt="Landing Page Banner" width="100%">
+</p>
+
 # Frefume Landing Page
 
 This is a responsive perfume landing page built using HTML, CSS, and JavaScript.
