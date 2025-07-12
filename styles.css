@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to bottom, #dff0d8, #ffffff);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: #fff;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav ul li {
+  cursor: pointer;
+}
+
+.shop-now {
+  background: #014d1a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.hero-img {
+  max-width: 150px;
+  margin: 20px auto;
+}
+
+.btn-green {
+  background: #007f3f;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.product-highlight {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 50px 20px;
+  gap: 40px;
+}
+
+.product-image img {
+  width: 200px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.subscription {
+  margin-top: 20px;
+}
+
+.subscription h4 {
+  margin: 10px 0 5px;
+}
+
+.subscription select {
+  width: 100%;
+  padding: 5px;
+}
+
+.collection {
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
+
+.accordion-btn {
+  background: #e6e6e6;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+}
+
+.featured-img img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background: #014d1a;
+  color: #fff;
+  padding: 30px 10px;
+}
+
+.comparison {
+  padding: 40px 20px;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+.comparison table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  border-collapse: collapse;
+}
+
+.comparison th,
+.comparison td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+footer {
+  background: #002d13;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-nav input {
+  padding: 8px;
+  width: 250px;
+  margin: 10px 10px 0;
+}
+
+.footer-nav button {
+  padding: 8px 15px;
+  background: #0ab864;
+  border:none;
+  color:white;
+}
